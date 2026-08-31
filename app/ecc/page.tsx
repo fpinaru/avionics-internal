@@ -5,11 +5,11 @@ export default function ECCPage() {
     <main className="min-h-screen p-10">
 
       <h1 className="text-4xl font-bold">
-        ECC
+        ECC - Electrical Control & Communications 
       </h1>
-
       <p className="mt-4 text-lg">
-        Explore the ECC system and its role in the avionics architecture.
+        ECC manages electrical control and communication between different avionics systems.
+        It connects hardware, handles signals/data, and helps different subsystems communicate reliably.
       </p>
 
       <div className="relative mt-10 h-[70vh] w-full">
