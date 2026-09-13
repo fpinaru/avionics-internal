@@ -2,7 +2,7 @@ import FlightComputerDiagram from "@/components/FlightComputerDiagram";
 
 export default function FlightComputerPage() {
   return (
-    <main className="p-10">
+    <main className="px-10 pb-10 pt-28 ">
 
       <h1 className="text-4xl font-bold">
         Flight Computer

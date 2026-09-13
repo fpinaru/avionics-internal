@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ECCPage() {
   return (
-    <main className="min-h-screen p-10">
+    <main className="min-h-screen px-10 pb-10 pt-28">
 
       <h1 className="text-4xl font-bold">
         ECC - Electrical Control & Communications 
