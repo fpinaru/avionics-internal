@@ -79,7 +79,7 @@ export default function GettingStartedPage() {
           </p>
 
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/Space-Concordia-Rocketry/Avionics-Intro-Task"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex border-2 border-border px-8 py-4 text-sm font-semibold uppercase tracking-wide transition hover:bg-white hover:text-black"

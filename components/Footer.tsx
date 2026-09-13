@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="YOUR_GITHUB_URL"
+          href="https://github.com/Space-Concordia-Rocketry/"
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors hover:text-white"
