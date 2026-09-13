@@ -112,7 +112,7 @@ export default function Home() {
       <section className="bg-background px-8 py-24 text-foreground md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
 
-          <p className="text-sm uppercase tracking-[0.2em] text-white/50">
+          <p className="text-sm uppercase tracking-[0.2em] text-muted">
             Updates
           </p>
 
@@ -122,8 +122,8 @@ export default function Home() {
 
           <div className="mt-12 grid gap-10 md:grid-cols-3">
 
-            <article className="border-t border-white/30 pt-6">
-              <p className="text-xs uppercase tracking-[0.15em] text-white/50">
+            <article className="border-t border-border pt-6">
+              <p className="text-xs uppercase tracking-[0.15em] text-muted">
                 Date
               </p>
 
@@ -136,8 +136,8 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="border-t border-white/30 pt-6">
-              <p className="text-xs uppercase tracking-[0.15em] text-white/50">
+            <article className="border-t border-border pt-6">
+              <p className="text-xs uppercase tracking-[0.15em] text-muted">
                 Date
               </p>
 
@@ -150,8 +150,8 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="border-t border-white/30 pt-6">
-              <p className="text-xs uppercase tracking-[0.15em] text-white/50">
+            <article className="border-t border-border pt-6">
+              <p className="text-xs uppercase tracking-[0.15em] text-muted">
                 Date
               </p>
 
@@ -172,7 +172,7 @@ export default function Home() {
       <section className="bg-background px-8 py-24 text-foreground md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
 
-          <p className="text-sm uppercase tracking-[0.2em] text-white/50">
+          <p className="text-sm uppercase tracking-[0.2em] text-muted">
             Calendar
           </p>
 
@@ -182,7 +182,7 @@ export default function Home() {
 
           <div className="mt-12">
 
-            <div className="grid gap-4 border-t border-white/30 py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
+            <div className="grid gap-4 border-t border-border py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
               <p className="text-xl font-semibold uppercase">
                 SEP 18
               </p>
@@ -196,7 +196,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid gap-4 border-t border-white/30 py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
+            <div className="grid gap-4 border-t border-border py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
               <p className="text-xl font-semibold uppercase">
                 SEP 22
               </p>
@@ -210,7 +210,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid gap-4 border-y border-white/30 py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
+            <div className="grid gap-4 border-y border-border py-7 md:grid-cols-[150px_1fr_1fr] md:items-center">
               <p className="text-xl font-semibold uppercase">
                 OCT 03
               </p>
