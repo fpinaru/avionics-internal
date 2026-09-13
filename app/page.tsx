@@ -35,7 +35,7 @@ const homeSections = [
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-background text-foreground">
 
       {/* HOME SECTIONS */}
       {homeSections.map((section, index) => (
@@ -109,7 +109,7 @@ export default function Home() {
       ))}
 
       {/* LATEST NEWS */}
-      <section className="bg-black px-8 py-24 text-white md:px-16 lg:px-24">
+      <section className="bg-background px-8 py-24 text-foreground md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
 
           <p className="text-sm uppercase tracking-[0.2em] text-white/50">
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       {/* UPCOMING EVENTS */}
-      <section className="bg-black px-8 py-24 text-white md:px-16 lg:px-24">
+      <section className="bg-background px-8 py-24 text-foreground md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
 
           <p className="text-sm uppercase tracking-[0.2em] text-white/50">
@@ -191,7 +191,7 @@ export default function Home() {
                 Avionics Meeting
               </h3>
 
-              <p className="text-white/60 md:text-right">
+              <p className="text-muted md:text-right">
                 Hall Building
               </p>
             </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 Hardware Workshop
               </h3>
 
-              <p className="text-white/60 md:text-right">
+              <p className="text-muted md:text-right">
                 Space Lab
               </p>
             </div>
@@ -219,7 +219,7 @@ export default function Home() {
                 Ground Test
               </h3>
 
-              <p className="text-white/60 md:text-right">
+              <p className="text-muted md:text-right">
                 Location TBD
               </p>
             </div>

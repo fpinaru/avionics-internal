@@ -37,7 +37,7 @@ export default function Navbar() {
     <>
       <nav className={`${bebasNeue.className}  fixed top-0 left-0 z-40
     flex w-full items-center justify-between
-    px-8 py-6 text-white
+    px-8 py-6 text-foreground
     transition-transform duration-500
     ${hidden ? "-translate-y-full" : "translate-y-0"}
   `}
@@ -79,16 +79,16 @@ export default function Navbar() {
           className="flex flex-col gap-[5px]"
           aria-label="Open menu"
         >
-          <span className="h-[2px] w-6 bg-white" />
-          <span className="h-[2px] w-6 bg-white" />
-          <span className="h-[2px] w-6 bg-white" />
+          <span className="h-[2px] w-6 bg-foreground" />
+          <span className="h-[2px] w-6 bg-foreground" />
+          <span className="h-[2px] w-6 bg-foreground" />
         </button>
       </nav>
 
       <div
         onClick={closeMenu}
         className={`
-          fixed inset-0 z-40 bg-black/60
+          fixed inset-0 z-40 bg-background/60
           transition-opacity duration-500
           ${
             menuOpen
@@ -102,7 +102,7 @@ export default function Navbar() {
         className={`
           fixed right-0 top-0 z-50
           h-screen w-[320px]
-          bg-black text-white
+          bg-background text-foreground
           px-8 py-7
           shadow-2xl
           transform transition-transform
@@ -126,7 +126,7 @@ export default function Navbar() {
 
         <div  className={`${bebasNeue.className} mt-14 flex flex-col text-[18px] uppercase tracking-[0.08em]`}
 >
-          <div className="border-b border-white/20 py-5">
+          <div className="border-b border-border py-5">
             <button
               onClick={() => setHardwareOpen(!hardwareOpen)}
               className="flex w-full items-center justify-between text-left"
@@ -158,7 +158,7 @@ export default function Navbar() {
                   <Link
                     href="/flight-computer"
                     onClick={closeMenu}
-                    className="text-white/70 transition-colors hover:text-white"
+                    className="text-muted transition-colors hover:text-foreground"
                   >
                     Flight Computer
                   </Link>
@@ -166,7 +166,7 @@ export default function Navbar() {
                   <Link
                     href="/telemetry"
                     onClick={closeMenu}
-                    className="text-white/70 transition-colors hover:text-white"
+                    className="text-muted transition-colors hover:text-foreground"
                   >
                     Telemetry
                   </Link>
@@ -174,7 +174,7 @@ export default function Navbar() {
                   <Link
                     href="/ecc"
                     onClick={closeMenu}
-                    className="text-white/70 transition-colors hover:text-white"
+                    className="text-muted transition-colors hover:text-foreground"
                   >
                     ECC
                   </Link>
@@ -182,7 +182,7 @@ export default function Navbar() {
                   <Link
                     href="/battery"
                     onClick={closeMenu}
-                    className="text-white/70 transition-colors hover:text-white"
+                    className="text-muted transition-colors hover:text-foreground"
                   >
                     Battery
                   </Link>
@@ -190,7 +190,7 @@ export default function Navbar() {
                   <Link
                     href="/ground-station"
                     onClick={closeMenu}
-                    className="text-white/70 transition-colors hover:text-white"
+                    className="text-muted transition-colors hover:text-foreground"
                   >
                     Ground Station
                   </Link>
@@ -202,7 +202,7 @@ export default function Navbar() {
           <Link
             href="/software-stack"
             onClick={closeMenu}
-            className="border-b border-white/20 py-5 transition-opacity hover:opacity-60"
+            className="border-b border-border py-5 transition-opacity hover:opacity-60"
           >
             Software Stack
           </Link>
@@ -210,7 +210,7 @@ export default function Navbar() {
           <Link
             href="/getting-started"
             onClick={closeMenu}
-            className="border-b border-white/20 py-5 transition-opacity hover:opacity-60"
+            className="border-b border-border py-5 transition-opacity hover:opacity-60"
           >
             Getting Started
           </Link>
